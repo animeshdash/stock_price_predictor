@@ -1,5 +1,7 @@
 # stock_price_predictor
 
+Objective:
+
 The primary goal of the paper is to predict stock market values using machine learning techniques to build a robust forecasting model.
 Application of deep learning method of LSTM (long short term memory) , to show how deep learning triumphs over machine learning.
 
@@ -24,11 +26,12 @@ LSTM - LSTM is a very efficient deep learning method which is a sub branch of RN
 
 The back propagation helps to resolve the weightage problem (vanishing gradient and exploding gradients) of the nodes and leads us to more impressive results. This is why LSTM is appropriate for time series analysis, handwriting recognition and speech processing.
 
-LSTM architecture consists of many software blocks ,out of which there are basically  salient three regulator gates connected by several information channels and a memory cell. These gates of three types i) The input gates ii)The output gate iii) The forget gate.
+LSTM architecture consists of many software blocks ,out of which there are basically  salient three regulator gates connected by several information channels and a memory cell. These gates of three types i) The input gates ii)The output gate iii) The forget gate.
+
 The  LSTM model is built using the frameworks Keras and Tensorflow 2.0.0 , with python being the underlying language.
 
 Conclusion:
 
 This use case best describes a Time Series problem. LSTM (Long Short Term Memory) are the few best available approaches to deep learning. The models demonstrated considerable confidence in predicting share price with minimal error. In this instance, data size is relatively less, and therefore the selection of the model is based on performance(error reduction) instead of computational efficiency.  Considering the financial impact of share price prediction, The LSTM model scores better than machine learning models.
 
-As different techniques of machine and deep learning have produced different performances, as a future scope of work we plan to explore the possibility of fine tuning these models and aim for higher prediction accuracy. For example ARIMA and ARMA model might be more accurate in this type Time series based application.
+As different techniques of machine and deep learning have produced different performances, as a future scope of work we plan to explore the possibility of fine tuning these models and aim for higher prediction accuracy. For example ARIMA and ARMA model might be more accurate in this type Time series based application.
